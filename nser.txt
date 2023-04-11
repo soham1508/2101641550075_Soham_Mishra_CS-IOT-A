@@ -1,7 +1,7 @@
 class Solution
 {
     public:
-    //Function to find the next greater element for each element of the array.
+    //Function to find the next smallest element for each element of the array.
     vector<long long> nextLargerElement(vector<long long> arr, int n){
         stack<long long> st;
         st.push(-1);
